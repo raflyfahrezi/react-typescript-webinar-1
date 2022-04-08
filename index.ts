@@ -34,3 +34,19 @@ const greet = ({ name, age, address }: person): string => {
 }
 
 console.log(greet({ name: 'Farhan', age: 22, address: 'Jawa Barat, Bandung' }))
+
+// Array
+const arrayOfPerson: person[] = [
+    {
+        name: 'Farhan',
+        age: 20,
+        address: 'Jawa Barat, Bandung',
+    },
+    {
+        name: 'Asep',
+        age: 21,
+        address: 'Jawa Barat, Bandung',
+    },
+]
+
+console.log(arrayOfPerson)
